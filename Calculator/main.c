@@ -8,6 +8,6 @@ int addition (int a,int b)
 
 int main()
 {
-    printf("%d",addition(4,1));
+    printf("le resultat de 4+1 est %d",addition(4,1));
     return 0;
 }
