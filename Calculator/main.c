@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int soustraction (int a, int b)
+{
+    return a-b;
+}
+
 int addition (int a,int b)
 {
     return a+b;
@@ -8,8 +13,7 @@ int addition (int a,int b)
 
 int main()
 {
-<<<<<<< HEAD
-    printf("le resultat de 4+1 est %d",addition(4,1));
->>>>>>> 2f9732850cb874f28454386daeb70a4a63517501
+    printf("le resultat de 4+1 est %d\n",addition(4,1));
+    printf("le resultat de 4-1 est %d",soustraction(4,1));
     return 0;
 }

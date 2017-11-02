@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509629394 source:d:\exia a1\github\calculator\calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+
